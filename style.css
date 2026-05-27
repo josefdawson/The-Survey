@@ -1,0 +1,61 @@
+#start {
+  position: absolute;
+  background-color: green;
+  color: white;
+  border: none;
+  right: 650px;
+  top: 400px;
+  transform: scale(2);
+  transition: all .2s;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+#changeNumber {
+  position: absolute;
+  right: 590px;
+  display: none;
+  top: 20px;
+  background-color: white; 
+  width: 50px;  
+  height: 50px;
+  z-index: 2;
+}
+
+.answer {
+  position: absolute;
+  right: 500px;
+  top: 1000px;
+  transition: all 1s;
+}
+
+body {
+  background: linear-gradient(to right, white, skyblue);
+}
+
+#Qcounter {
+  position: absolute;
+  right: 610px;
+  top: -100px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  transition: top 0.5s;
+}
+
+#questionLabel {
+  position: absolute;
+  right: 2050px;
+  top: 150px;
+  transform: scale(2);
+  color: white;
+  -webkit-text-stroke: .5px black;
+  transition: right 1s, top 1s;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
